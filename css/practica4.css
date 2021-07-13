@@ -1,0 +1,73 @@
+/*practica 2*/
+
+.containerBoxes {
+	padding-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.containerLetters {
+	width: 60px;
+	height: 60px;
+	margin: 0px 0.5rem;
+}
+
+.row .inputBoxes {
+	border: 2px solid #9bf5e4;
+	background: linear-gradient(#9bf5e4, #64c4b3);
+	color: #300962;
+	border-radius: 4px;
+	width: 60px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	outline: none;
+}
+
+.row .inputBoxes2 {
+	border-bottom: 2px solid #5abdab;
+	background: linear-gradient(#5abdab, #2d8573);
+	color: #300962;
+	border-radius: 4px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin: 0px 0.5rem;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+}
+
+.row .inputBoxes:hover {
+	color: #64c4b3;
+	border: 2px solid #7d6dbe;
+	background: linear-gradient(#7d6dbe, #300962);
+}
+
+@media (max-width: 829px) {
+	.row .inputBoxes,
+	.containerLetters {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 660px) {
+	.row .inputBoxes,
+	.containerLetters {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.row .inputBoxes,
+	.containerLetters {
+		width: 35px;
+		height: 35px;
+	}
+}

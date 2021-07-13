@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+/*
+Colors
+#392979;
+#50408e;
+#64c4b3;*/
+
+.proyectosBody {
+	background-color: #300962;
+	padding-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+p,
+a {
+	font-family: "Quicksand", sans-serif;
+}
+
+/*navbar*/
+.navbar.bg-nav {
+	background: linear-gradient(#300962, #50408e);
+}
+
+.fas.fa-bars {
+	color: #64c4b3;
+}
+
+.navbar-brand {
+	color: #64c4b3;
+	font-weight: 600;
+}
+
+.navbar-brand:hover {
+	color: #50408e;
+}
+
+/*offcanvas*/
+#offcanvasRight {
+	background: linear-gradient(#300962, #50408e);
+	padding: 2rem;
+}
+
+#offcanvasRight a {
+	text-decoration: none;
+	color: #64c4b3;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+	border-bottom: hsl(169, 45%, 58%) solid 0.1rem;
+	text-align: center;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn.close {
+	background-color: none;
+	font-weight: bold;
+	margin-top: 1rem;
+	color: #64c4b3;
+}
+
+.btn.close:hover,
+#offcanvasRight a:hover,
+#offcanvasRight .active {
+	color: #7d6dbe;
+}
+
+/*loader*/
+#spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+#content {
+	display: none;
+}
+
+@keyframes ldio-970kodaoed {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.ldio-970kodaoed div {
+	position: absolute;
+	animation: ldio-970kodaoed 1s linear infinite;
+	width: 160px;
+	height: 160px;
+	top: 20px;
+	left: 20px;
+	border-radius: 50%;
+	box-shadow: 0 4px 0 0 #64c4b3;
+	transform-origin: 80px 82px;
+}
+.loadingio-spinner-eclipse-70yqby4xhxv {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	overflow: hidden;
+	background: none;
+}
+.ldio-970kodaoed {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform: translateZ(0) scale(1);
+	backface-visibility: hidden;
+	transform-origin: 0 0; /* see note above */
+}
+.ldio-970kodaoed div {
+	box-sizing: content-box;
+}
+
+/*modal*/
+.modal-dialog .modal-content {
+	background-color: #7d6dbe;
+	color: #50408e;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.modal-dialog .modal-content .modal-header {
+	border-bottom: 0px solid;
+}

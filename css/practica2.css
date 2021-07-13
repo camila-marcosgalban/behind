@@ -1,0 +1,101 @@
+/*practica 2*/
+
+.containerClave {
+	padding-top: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: #999;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.row .inputBoxes,
+.row .inputBoxesBtn {
+	border: 2px solid #7d6dbe;
+	background: linear-gradient(#7d6dbe, #300962);
+	border-radius: 4px;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	margin: 0px 0.5rem;
+}
+
+.row .inputBoxesBtn {
+	border: 2px solid #9bf5e4;
+	background: linear-gradient(#9bf5e4, #64c4b3);
+}
+
+.row .inputs {
+	width: 70px;
+	height: 70px;
+	outline: none;
+	background: transparent;
+	border: navajowhite;
+	padding: 2px 0px;
+	color: #64c4b3;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (max-width: 977px) {
+	.row .inputBoxes,
+	.row .inputBoxesBtn {
+		width: 60px;
+		height: 60px;
+		margin: 0px 0.4rem;
+	}
+	.row .inputs {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width: 829px) {
+	.row .inputBoxes,
+	.row .inputBoxesBtn {
+		width: 50px;
+		height: 50px;
+		margin: 0px 0.3rem;
+	}
+	.row .inputs {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 660px) {
+	.row .inputBoxes,
+	.row .inputBoxesBtn {
+		width: 40px;
+		height: 40px;
+		margin: 0px 0.2rem;
+	}
+	.row .inputs {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.row .inputBoxes,
+	.row .inputBoxesBtn {
+		width: 35px;
+		height: 35px;
+		margin: 0px 0.2rem;
+	}
+	.row .inputs {
+		width: 35px;
+		height: 35px;
+	}
+}
+
+.fa-arrow-right {
+	color: white;
+	font-size: 1.5rem;
+}

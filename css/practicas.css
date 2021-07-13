@@ -1,0 +1,110 @@
+h1,
+h2 {
+	color: #64c4b3;
+}
+
+.sayHi {
+	font-size: x-large;
+}
+
+/*subtitle*/
+
+.row .subtitle_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subtitle {
+	border-bottom: #64c4b3 solid 0.2rem;
+	width: 70vw;
+	font-size: x-large;
+}
+
+/*practicas*/
+
+.row .containers_practicas {
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn.Btn-practicas {
+	width: 70vw;
+	height: 10vh;
+	text-align: left;
+	padding-left: 2.5rem;
+	font-family: "Quicksand", sans-serif;
+	font-weight: bolder;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.btn.Btn-practicas.habilitada {
+	color: rgb(52, 34, 121);
+	border: 2px solid #64c4b3;
+	background: linear-gradient(#7d6dbe, #50408e);
+}
+
+.btn.Btn-practicas.inhabilitada {
+	color: rgb(36, 36, 37);
+	border: 2px solid rgb(36, 36, 37);
+	background: linear-gradient(rgb(79, 79, 80), rgb(52, 52, 53));
+}
+
+/*validar practicas*/
+
+#practica1Box .indicator1,
+#practica2Box .indicator2,
+#practica3Box .indicator3,
+#practica4Box .indicator4,
+#practica5Box .indicator5 {
+	display: inline-block;
+	margin-left: 85%;
+	width: 10px;
+	height: 10px;
+	background: rgb(52, 52, 53);
+	box-shadow: 0 0 5px rgb(52, 52, 53), 0 0 10px rgb(52, 52, 53),
+		0 0 20px rgb(52, 52, 53), 0 0 40px rgb(52, 52, 53);
+	border-radius: 50%;
+}
+
+@media (max-width: 950px) {
+	#practica1Box .indicator1,
+	#practica2Box .indicator2,
+	#practica3Box .indicator3,
+	#practica4Box .indicator4,
+	#practica5Box .indicator5 {
+		margin-left: 75%;
+	}
+}
+
+@media (max-width: 626px) {
+	#practica1Box .indicator1,
+	#practica2Box .indicator2,
+	#practica3Box .indicator3,
+	#practica4Box .indicator4,
+	#practica5Box .indicator5 {
+		margin-left: 65%;
+	}
+}
+
+#practica1Box.valid .indicator1,
+#practica2Box.valid .indicator2,
+#practica3Box.valid .indicator3,
+#practica4Box.valid .indicator4,
+#practica5Box.valid .indicator5 {
+	background: #64c4b3;
+	box-shadow: 0 0 5px #64c4b3, 0 0 10px #64c4b3, 0 0 20px #64c4b3,
+		0 0 40px #64c4b3;
+}
+
+/*practica1*/
+.containerRow1,
+.containerRow2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,21 @@
+p {
+	color: #64c4b3;
+	font-weight: 700;
+}
+
+.us {
+	width: 20%;
+	margin-right: 0.2rem;
+}
+
+@media (max-width: 729) {
+	.us {
+		width: 25%;
+	}
+}
+
+.imgContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

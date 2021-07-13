@@ -1,0 +1,47 @@
+.navbar .btn-perfil,
+.btn-perfil2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-weight: bold;
+	border: solid 0.2rem white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.perfilColor {
+	background-color: #64c4b3;
+}
+
+.containerContainerInitial,
+.containerContainerPerfil {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row .btn-perfil2 {
+	width: 220px;
+	height: 220px;
+	font-size: 70px;
+	border: solid 0.4rem white;
+}
+
+.perfilLink,
+.perfilLink2 {
+	text-decoration: none;
+	color: white;
+}
+
+.perfilLink:hover {
+	color: #50408e;
+}
+
+#containerPerfil b {
+	font-size: large;
+}
+
+#containerPerfil p {
+	font-weight: 600;
+}

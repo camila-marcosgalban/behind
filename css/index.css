@@ -1,0 +1,29 @@
+/*gif*/
+
+.gifContainer {
+	display: grid;
+	height: 50vh;
+	place-content: center;
+}
+
+/*form*/
+
+.FormContainer {
+	display: flex;
+	height: 30vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputUser,
+.inputPassword {
+	width: 300px;
+}
+
+/*btn*/
+
+.btn.Btn-login {
+	background-color: #64c4b3;
+	font-weight: 600;
+	width: 150px;
+}

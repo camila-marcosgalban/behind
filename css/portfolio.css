@@ -1,0 +1,175 @@
+/*categorias*/
+.contenedorHover2,
+.contenedorHover2:hover {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contenedorHover2 .hover3d {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #201f1f;
+	border-top: solid #201f1f 0.1rem;
+	width: 250px;
+	display: none;
+}
+
+.contenedorHover2:hover {
+	width: 250px;
+	height: 250px;
+}
+
+.contenedorHover2:hover .hover3d {
+	display: block;
+	opacity: 80%;
+	width: 250px;
+}
+
+/*3d*/
+.background--globo {
+	background: url(../assets/3d/globo_square.jpg);
+}
+
+.background--espada {
+	background: url(../assets/3d/espada_square.jpg);
+}
+
+.background--roland {
+	background: url(../assets/3d/roland_square.jpg);
+}
+
+.background--pioneer {
+	background: url(../assets/3d/pioneer_square.jpg);
+}
+
+.background--hacha {
+	background: url(../assets/3d/hacha_square.jpg);
+}
+
+.background--van {
+	background: url(../assets/3d/van_square.jpg);
+}
+
+.background--globo:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(241, 194, 91, 0.45)),
+			to(rgba(240, 178, 44, 0.45))
+		),
+		url(../assets/3d/globo_square.jpg);
+	background: linear-gradient(
+			rgba(241, 194, 91, 0.45),
+			rgba(240, 178, 44, 0.45)
+		),
+		url(../assets/3d/globo_square.jpg);
+}
+
+.background--espada:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(243, 116, 116, 0.45)),
+			to(rgba(243, 116, 116, 0.45))
+		),
+		url(../assets/3d/espada_square.jpg);
+	background: linear-gradient(
+			rgba(243, 116, 116, 0.45),
+			rgba(243, 116, 116, 0.45)
+		),
+		url(../assets/3d/espada_square.jpg);
+}
+
+.background--roland:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(89, 131, 248, 0.45)),
+			to(rgba(89, 131, 248, 0.45))
+		),
+		url(../assets/3d/roland_square.jpg);
+	background: linear-gradient(
+			rgba(89, 131, 248, 0.45),
+			rgba(89, 131, 248, 0.45)
+		),
+		url(../assets/3d/roland_square.jpg);
+}
+
+.background--pioneer:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(184, 245, 143, 0.45)),
+			to(rgba(184, 245, 143, 0.45))
+		),
+		url(../assets/3d/pioneer_square.jpg);
+	background: linear-gradient(
+			rgba(184, 245, 143, 0.45),
+			rgba(184, 245, 143, 0.45)
+		),
+		url(../assets/3d/pioneer_square.jpg);
+}
+
+.background--hacha:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/3d/hacha_square.jpg);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/3d/hacha_square.jpg);
+}
+
+.background--van:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(233, 160, 248, 0.45)),
+			to(rgba(233, 160, 248, 0.45))
+		),
+		url(../assets/3d/van_square.jpg);
+	background: linear-gradient(
+			rgba(233, 160, 248, 0.45),
+			rgba(233, 160, 248, 0.45)
+		),
+		url(../assets/3d/van_square.jpg);
+}
+
+/*proyectos*/
+.imgSoftware {
+	width: 50px;
+}
+
+#proyectoBody {
+	background-color: #50408e;
+	color: white;
+}
+
+.resize {
+	width: 70%;
+}
+
+.resize2 {
+	width: 40%;
+}
+
+.proyectos {
+	color: #64c4b3;
+}
