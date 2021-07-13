@@ -7,7 +7,7 @@ if(getUserInitial === 'camila.marcos'){
     nombre = 'Camila';
     apellido = 'Marcos Galbán';
     nivel = 'avanzado';
-    fechaEntreamiento = 'naci chamuyera pa';
+    fechaEntreamiento = ' ';
 }else if(getUserInitial === 'tomas.colaprete'){
     initial = 'T'
     nombre = 'Tomás';
@@ -20,14 +20,14 @@ else if(getUserInitial === 'sofia.maidana'){
     nombre = 'Sofia';
     apellido = 'Maidana';
     nivel = 'avanzado';
-    fechaEntreamiento = 'naci chamuyera pa';
+    fechaEntreamiento = ' ';
 }
 else if(getUserInitial === 'gianfranco.pozzuto'){
     initial = 'G';
     nombre = 'GianFranco';
     apellido = 'Pozzuto';
     nivel = 'avanzado';
-    fechaEntreamiento = 'naci chamuyera pa';
+    fechaEntreamiento = ' ';
 }
 let printInitial = `<a class="perfilLink" href="../perfil.html">${initial}</a>`;
 let printInitial2 = `<a class="perfilLink2" href="../perfil.html">${initial}</a>`;
