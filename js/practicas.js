@@ -6,12 +6,18 @@ if(getUser === 'camila.marcos'){
     sayHi = 'Camila';
 }else if(getUser === 'tomas.colaprete'){
     sayHi = 'Tomás';
-}
-else if(getUser === 'sofia.maidana'){
+}else if(getUser === 'sofia.maidana'){
     sayHi = 'Sofia';
-}
-else if(getUser === 'gianfranco.pozzuto'){
+}else if(getUser === 'gianfranco.pozzuto'){
     sayHi = 'GianFranco';
+}else if(getUser === 'cristian.nigri'){
+    sayHi = 'Cristian';
+}else if(getUser === 'guido.tondo'){
+    sayHi = 'Guido';
+}else if(getUser === 'emiliano.enriquez'){
+    sayHi = 'Emiliano';
+}else if(getUser === 'rodrigo.portillo'){
+    sayHi = 'Rodrigo';
 }
 
 let state1 = localStorage.getItem('state1')

@@ -29,7 +29,8 @@
 }
 
 .perfilLink,
-.perfilLink2 {
+.perfilLink2,
+a.perfilLink:hover {
 	text-decoration: none;
 	color: white;
 }

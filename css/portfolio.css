@@ -14,8 +14,8 @@
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	color: #201f1f;
-	border-top: solid #201f1f 0.1rem;
+	color: #000000;
+	border-top: solid #000000 0.1rem;
 	width: 250px;
 	display: none;
 }
@@ -27,33 +27,39 @@
 
 .contenedorHover2:hover .hover3d {
 	display: block;
-	opacity: 80%;
+	opacity: 100%;
 	width: 250px;
 }
 
 /*3d*/
 .background--globo {
-	background: url(../assets/3d/globo_square.jpg);
+	background: url(../assets/3d/2.png);
+	background-size: cover;
 }
 
-.background--espada {
-	background: url(../assets/3d/espada_square.jpg);
+.background--camara {
+	background: url(../assets/3d/1.png);
+	background-size: cover;
 }
 
 .background--roland {
-	background: url(../assets/3d/roland_square.jpg);
+	background: url(../assets/3d/4.png);
+	background-size: cover;
 }
 
-.background--pioneer {
-	background: url(../assets/3d/pioneer_square.jpg);
+.background--teclado {
+	background: url(../assets/3d/5.png);
+	background-size: cover;
 }
 
 .background--hacha {
-	background: url(../assets/3d/hacha_square.jpg);
+	background: url(../assets/3d/3.png);
+	background-size: cover;
 }
 
 .background--van {
-	background: url(../assets/3d/van_square.jpg);
+	background: url(../assets/3d/6.png);
+	background-size: cover;
 }
 
 .background--globo:hover {
@@ -64,28 +70,30 @@
 			from(rgba(241, 194, 91, 0.45)),
 			to(rgba(240, 178, 44, 0.45))
 		),
-		url(../assets/3d/globo_square.jpg);
+		url(../assets/3d/2.png);
 	background: linear-gradient(
 			rgba(241, 194, 91, 0.45),
 			rgba(240, 178, 44, 0.45)
 		),
-		url(../assets/3d/globo_square.jpg);
+		url(../assets/3d/2.png);
+	background-size: cover;
 }
 
-.background--espada:hover {
+.background--camara:hover {
 	background: -webkit-gradient(
 			linear,
 			left top,
 			left bottom,
-			from(rgba(243, 116, 116, 0.45)),
-			to(rgba(243, 116, 116, 0.45))
+			from(rgba(218, 116, 243, 0.45)),
+			to(rgba(218, 116, 243, 0.45))
 		),
-		url(../assets/3d/espada_square.jpg);
+		url(../assets/3d/1.png);
 	background: linear-gradient(
-			rgba(243, 116, 116, 0.45),
-			rgba(243, 116, 116, 0.45)
+			rgba(218, 116, 243, 0.45),
+			rgba(218, 116, 243, 0.45)
 		),
-		url(../assets/3d/espada_square.jpg);
+		url(../assets/3d/1.png);
+	background-size: cover;
 }
 
 .background--roland:hover {
@@ -96,28 +104,30 @@
 			from(rgba(89, 131, 248, 0.45)),
 			to(rgba(89, 131, 248, 0.45))
 		),
-		url(../assets/3d/roland_square.jpg);
+		url(../assets/3d/4.png);
 	background: linear-gradient(
 			rgba(89, 131, 248, 0.45),
 			rgba(89, 131, 248, 0.45)
 		),
-		url(../assets/3d/roland_square.jpg);
+		url(../assets/3d/4.png);
+	background-size: cover;
 }
 
-.background--pioneer:hover {
+.background--teclado:hover {
 	background: -webkit-gradient(
 			linear,
 			left top,
 			left bottom,
-			from(rgba(184, 245, 143, 0.45)),
-			to(rgba(184, 245, 143, 0.45))
+			from(rgba(245, 150, 143, 0.45)),
+			to(rgba(245, 150, 143, 0.45))
 		),
-		url(../assets/3d/pioneer_square.jpg);
+		url(../assets/3d/5.png);
 	background: linear-gradient(
-			rgba(184, 245, 143, 0.45),
-			rgba(184, 245, 143, 0.45)
+			rgba(245, 150, 143, 0.45),
+			rgba(245, 150, 143, 0.45)
 		),
-		url(../assets/3d/pioneer_square.jpg);
+		url(../assets/3d/5.png);
+	background-size: cover;
 }
 
 .background--hacha:hover {
@@ -128,12 +138,13 @@
 			from(rgba(133, 220, 247, 0.45)),
 			to(rgba(133, 220, 247, 0.45))
 		),
-		url(../assets/3d/hacha_square.jpg);
+		url(../assets/3d/3.png);
 	background: linear-gradient(
 			rgba(133, 220, 247, 0.45),
 			rgba(133, 220, 247, 0.45)
 		),
-		url(../assets/3d/hacha_square.jpg);
+		url(../assets/3d/3.png);
+	background-size: cover;
 }
 
 .background--van:hover {
@@ -141,15 +152,649 @@
 			linear,
 			left top,
 			left bottom,
-			from(rgba(233, 160, 248, 0.45)),
-			to(rgba(233, 160, 248, 0.45))
+			from(rgba(167, 248, 160, 0.45)),
+			to(rgba(167, 248, 160, 0.45))
 		),
-		url(../assets/3d/van_square.jpg);
+		url(../assets/3d/6.png);
 	background: linear-gradient(
-			rgba(233, 160, 248, 0.45),
-			rgba(233, 160, 248, 0.45)
+			rgba(167, 248, 160, 0.45),
+			rgba(167, 248, 160, 0.45)
 		),
-		url(../assets/3d/van_square.jpg);
+		url(../assets/3d/6.png);
+	background-size: cover;
+}
+
+/*categorias 1*/
+.background--cp {
+	background: url(../assets/);
+	background-size: cover;
+}
+
+.background--cp:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(167, 248, 160, 0.45)),
+			to(rgba(167, 248, 160, 0.45))
+		),
+		url(../assets/);
+	background: linear-gradient(
+			rgba(167, 248, 160, 0.45),
+			rgba(167, 248, 160, 0.45)
+		),
+		url(../assets/);
+	background-size: cover;
+}
+
+.background--web {
+	background: url(../assets/web/2.png);
+	background-size: cover;
+}
+
+.background--web:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 150, 143, 0.45)),
+			to(rgba(245, 150, 143, 0.45))
+		),
+		url(../assets/web/2.png);
+	background: linear-gradient(
+			rgba(245, 150, 143, 0.45),
+			rgba(245, 150, 143, 0.45)
+		),
+		url(../assets/web/2.png);
+	background-size: cover;
+}
+
+.background--apps {
+	background: url(../assets/apps/1.png);
+	background-size: cover;
+}
+
+.background--apps:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(218, 116, 243, 0.45)),
+			to(rgba(218, 116, 243, 0.45))
+		),
+		url(../assets/apps/1.png);
+	background: linear-gradient(
+			rgba(218, 116, 243, 0.45),
+			rgba(218, 116, 243, 0.45)
+		),
+		url(../assets/apps/1.png);
+	background-size: cover;
+}
+
+/*web*/
+.background--juegos {
+	background: url(../assets/web/5.png);
+	background-size: cover;
+}
+
+.background--juegos:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(143, 245, 214, 0.45)),
+			to(rgba(143, 245, 214, 0.45))
+		),
+		url(../assets/web/5.png);
+	background: linear-gradient(
+			rgba(143, 245, 214, 0.45),
+			rgba(143, 245, 214, 0.45)
+		),
+		url(../assets/web/5.png);
+	background-size: cover;
+}
+
+.background--arrow {
+	background: url(../assets/web/1.png);
+	background-size: cover;
+}
+
+.background--arrow:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(167, 248, 160, 0.45)),
+			to(rgba(167, 248, 160, 0.45))
+		),
+		url(../assets/web/1.png);
+	background: linear-gradient(
+			rgba(167, 248, 160, 0.45),
+			rgba(167, 248, 160, 0.45)
+		),
+		url(../assets/web/1.png);
+	background-size: cover;
+}
+
+.background--ed {
+	background: url(../assets/web/3.jpg);
+	background-size: cover;
+}
+
+.background--ed:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(248, 160, 214, 0.45)),
+			to(rgba(248, 160, 214, 0.45))
+		),
+		url(../assets/web/3.jpg);
+	background: linear-gradient(
+			rgba(248, 160, 214, 0.45),
+			rgba(248, 160, 214, 0.45)
+		),
+		url(../assets/web/3.jpg);
+	background-size: cover;
+}
+
+.background--tg {
+	background: url(../assets/web/6.png);
+	background-size: cover;
+}
+
+.background--tg:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(218, 116, 243, 0.45)),
+			to(rgba(218, 116, 243, 0.45))
+		),
+		url(../assets/web/6.png);
+	background: linear-gradient(
+			rgba(218, 116, 243, 0.45),
+			rgba(218, 116, 243, 0.45)
+		),
+		url(../assets/web/6.png);
+	background-size: cover;
+}
+
+.background--formula1 {
+	background: url(../assets/web/4.png);
+	background-size: cover;
+}
+
+.background--formula1:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 150, 143, 0.45)),
+			to(rgba(245, 150, 143, 0.45))
+		),
+		url(../assets/web/4.png);
+	background: linear-gradient(
+			rgba(245, 150, 143, 0.45),
+			rgba(245, 150, 143, 0.45)
+		),
+		url(../assets/web/4.png);
+	background-size: cover;
+}
+
+.background--doberdan {
+	background: url(../assets/web/2.png);
+	background-size: cover;
+}
+
+.background--doberdan:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 226, 143, 0.45)),
+			to(rgba(245, 226, 143, 0.45))
+		),
+		url(../assets/web/2.png);
+	background: linear-gradient(
+			rgba(245, 226, 143, 0.45),
+			rgba(245, 226, 143, 0.45)
+		),
+		url(../assets/web/2.png);
+	background-size: cover;
+}
+
+/*apps*/
+.background--disway {
+	background: url(../assets/apps/1.png);
+	background-size: cover;
+}
+
+.background--disway:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/apps/1.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/apps/1.png);
+	background-size: cover;
+}
+
+.background--francotirador {
+	background: url(../assets/apps/2.png);
+	background-size: cover;
+}
+
+.background--francotirador:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(167, 248, 160, 0.45)),
+			to(rgba(167, 248, 160, 0.45))
+		),
+		url(../assets/apps/2.png);
+	background: linear-gradient(
+			rgba(167, 248, 160, 0.45),
+			rgba(167, 248, 160, 0.45)
+		),
+		url(../assets/apps/2.png);
+	background-size: cover;
+}
+
+.background--hp {
+	background: url(../assets/apps/3.png);
+	background-size: cover;
+}
+
+.background--hp:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 150, 143, 0.45)),
+			to(rgba(245, 150, 143, 0.45))
+		),
+		url(../assets/apps/3.png);
+	background: linear-gradient(
+			rgba(245, 150, 143, 0.45),
+			rgba(245, 150, 143, 0.45)
+		),
+		url(../assets/apps/3.png);
+	background-size: cover;
+}
+
+.background--ralph {
+	background: url(../assets/apps/4.png);
+	background-size: cover;
+}
+
+.background--ralph:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 226, 143, 0.45)),
+			to(rgba(245, 226, 143, 0.45))
+		),
+		url(../assets/apps/4.png);
+	background: linear-gradient(
+			rgba(245, 226, 143, 0.45),
+			rgba(245, 226, 143, 0.45)
+		),
+		url(../assets/apps/4.png);
+	background-size: cover;
+}
+
+.background--ubuddy {
+	background: url(../assets/apps/5.png);
+	background-size: cover;
+}
+
+.background--ubuddy:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(218, 116, 243, 0.45)),
+			to(rgba(218, 116, 243, 0.45))
+		),
+		url(../assets/apps/5.png);
+	background: linear-gradient(
+			rgba(218, 116, 243, 0.45),
+			rgba(218, 116, 243, 0.45)
+		),
+		url(../assets/apps/5.png);
+	background-size: cover;
+}
+
+/*categorias2*/
+.background--illu {
+	background: url(../assets/illu/3.png);
+	background-size: cover;
+}
+
+.background--illu:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(218, 116, 243, 0.45)),
+			to(rgba(218, 116, 243, 0.45))
+		),
+		url(../assets/illu/3.png);
+	background: linear-gradient(
+			rgba(218, 116, 243, 0.45),
+			rgba(218, 116, 243, 0.45)
+		),
+		url(../assets/illu/3.png);
+	background-size: cover;
+}
+
+.background--dg {
+	background: url(../assets/dg/6.png);
+	background-size: cover;
+}
+
+.background--dg:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/dg/6.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/dg/6.png);
+	background-size: cover;
+}
+
+/*ilustraciones*/
+.background--ac {
+	background: url(../assets/illu/6.png);
+	background-size: cover;
+}
+
+.background--ac:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 133, 133, 0.45)),
+			to(rgba(247, 133, 133, 0.45))
+		),
+		url(../assets/illu/6.png);
+	background: linear-gradient(
+			rgba(247, 133, 133, 0.45),
+			rgba(247, 133, 133, 0.45)
+		),
+		url(../assets/illu/6.png);
+	background-size: cover;
+}
+.background--arturito {
+	background: url(../assets/illu/1.png);
+	background-size: cover;
+}
+
+.background--arturito:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/illu/1.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/illu/1.png);
+	background-size: cover;
+}
+.background--esmeralda {
+	background: url(../assets/illu/2.png);
+	background-size: cover;
+}
+
+.background--esmeralda:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 247, 213, 0.45)),
+			to(rgba(133, 247, 213, 0.45))
+		),
+		url(../assets/illu/2.png);
+	background: linear-gradient(
+			rgba(133, 247, 213, 0.45),
+			rgba(133, 247, 213, 0.45)
+		),
+		url(../assets/illu/2.png);
+	background-size: cover;
+}
+.background--freezer {
+	background: url(../assets/illu/3.png);
+	background-size: cover;
+}
+
+.background--freezer:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(186, 133, 247, 0.45)),
+			to(rgba(186, 133, 247, 0.45))
+		),
+		url(../assets/illu/3.png);
+	background: linear-gradient(
+			rgba(186, 133, 247, 0.45),
+			rgba(186, 133, 247, 0.45)
+		),
+		url(../assets/illu/3.png);
+	background-size: cover;
+}
+.background--ironman {
+	background: url(../assets/illu/4.png);
+	background-size: cover;
+}
+
+.background--ironman:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 220, 133, 0.45)),
+			to(rgba(247, 220, 133, 0.45))
+		),
+		url(../assets/illu/4.png);
+	background: linear-gradient(
+			rgba(247, 220, 133, 0.45),
+			rgba(247, 220, 133, 0.45)
+		),
+		url(../assets/illu/4.png);
+	background-size: cover;
+}
+.background--kean {
+	background: url(../assets/illu/5.png);
+	background-size: cover;
+}
+
+.background--kean:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(144, 133, 247, 0.45)),
+			to(rgba(144, 133, 247, 0.45))
+		),
+		url(../assets/illu/5.png);
+	background: linear-gradient(
+			rgba(144, 133, 247, 0.45),
+			rgba(144, 133, 247, 0.45)
+		),
+		url(../assets/illu/5.png);
+	background-size: cover;
+}
+.background--suarez {
+	background: url(../assets/illu/7.png);
+	background-size: cover;
+}
+
+.background--suarez:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 182, 247, 0.45)),
+			to(rgba(133, 182, 247, 0.45))
+		),
+		url(../assets/illu/7.png);
+	background: linear-gradient(
+			rgba(133, 182, 247, 0.45),
+			rgba(133, 182, 247, 0.45)
+		),
+		url(../assets/illu/7.png);
+	background-size: cover;
+}
+
+/*diseño gráfico*/
+.background--tripguide {
+	background: url(../assets/dg/5.png);
+	background-size: cover;
+}
+
+.background--tripguide:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/dg/5.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/dg/5.png);
+	background-size: cover;
+}
+.background--guins {
+	background: url(../assets/dg/6.png);
+	background-size: cover;
+}
+
+.background--guins:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 247, 213, 0.45)),
+			to(rgba(133, 247, 213, 0.45))
+		),
+		url(../assets/dg/6.png);
+	background: linear-gradient(
+			rgba(133, 247, 213, 0.45),
+			rgba(133, 247, 213, 0.45)
+		),
+		url(../assets/dg/6.png);
+	background-size: cover;
+}
+.background--sony {
+	background: url(../assets/dg/1.png);
+	background-size: cover;
+}
+
+.background--sony:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(186, 133, 247, 0.45)),
+			to(rgba(186, 133, 247, 0.45))
+		),
+		url(../assets/dg/1.png);
+	background: linear-gradient(
+			rgba(186, 133, 247, 0.45),
+			rgba(186, 133, 247, 0.45)
+		),
+		url(../assets/dg/1.png);
+	background-size: cover;
+}
+.background--fe {
+	background: url(../assets/dg/2.png);
+	background-size: cover;
+}
+
+.background--fe:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 220, 133, 0.45)),
+			to(rgba(247, 220, 133, 0.45))
+		),
+		url(../assets/dg/2.png);
+	background: linear-gradient(
+			rgba(247, 220, 133, 0.45),
+			rgba(247, 220, 133, 0.45)
+		),
+		url(../assets/dg/2.png);
+	background-size: cover;
+}
+.background--dd {
+	background: url(../assets/dg/7.png);
+	background-size: cover;
+}
+
+.background--dd:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(144, 133, 247, 0.45)),
+			to(rgba(144, 133, 247, 0.45))
+		),
+		url(../assets/dg/7.png);
+	background: linear-gradient(
+			rgba(144, 133, 247, 0.45),
+			rgba(144, 133, 247, 0.45)
+		),
+		url(../assets/dg/7.png);
+	background-size: cover;
+}
+.background--nj {
+	background: url(../assets/dg/4.png);
+	background-size: cover;
+}
+
+.background--nj:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 207, 133, 0.45)),
+			to(rgba(247, 207, 133, 0.45))
+		),
+		url(../assets/dg/4.png);
+	background: linear-gradient(
+			rgba(247, 207, 133, 0.45),
+			rgba(247, 207, 133, 0.45)
+		),
+		url(../assets/dg/4.png);
+	background-size: cover;
 }
 
 /*proyectos*/

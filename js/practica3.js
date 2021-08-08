@@ -22,7 +22,7 @@ function checkOrder(){
     const rightOrder = ["1", "2", "3", "4", "5"];
 
     if(JSON.stringify(order) === JSON.stringify(rightOrder)){
-        window.location.href="../portfolio/ilustraciones.html";
+        window.location.href="../portfolio/categorias2.html";
         localStorage.setItem('state3', 'done')
     }else{
         $('#exampleModal').modal('show');
@@ -39,7 +39,7 @@ $(window).on('load',function() {
         if(state3 === null){
             console.log('not done')
         }else if(state3 ==='done'){
-            window.location.href="../portfolio/ilustraciones.html";
+            window.location.href="../portfolio/categorias2.html";
         }
     }
     close1();
