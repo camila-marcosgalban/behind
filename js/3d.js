@@ -1,6 +1,9 @@
 $(window).on('load',function() {
-    
 
+    let state1 = localStorage.getItem('state1');
+    if(state1 !=='done'){
+        window.location.href="../practicas/practica1.html";
+    }else{
     function showMessage(){
         let state1 = localStorage.getItem('state1');
         let state1_done = localStorage.getItem('state1_done');
@@ -14,4 +17,6 @@ $(window).on('load',function() {
         }
     }
     showMessage();
+
+}
 });

@@ -19,7 +19,7 @@ Sortable.create(list,{
 function checkOrder(){
     const order = localStorage.getItem('orden').split('.');
     console.log(order);
-    const rightOrder = ["1", "2", "3", "4", "5"];
+    const rightOrder = ["1", "2","0", "3", "1", "8"];
 
     if(JSON.stringify(order) === JSON.stringify(rightOrder)){
         window.location.href="../portfolio/categorias2.html";

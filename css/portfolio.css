@@ -166,7 +166,7 @@
 
 /*categorias 1*/
 .background--cp {
-	background: url(../assets/);
+	background: url(../assets/cp/recolector\ 2.jpg);
 	background-size: cover;
 }
 
@@ -175,15 +175,12 @@
 			linear,
 			left top,
 			left bottom,
-			from(rgba(167, 248, 160, 0.45)),
-			to(rgba(167, 248, 160, 0.45))
+			from(rgba(235, 65, 65, 0.45)),
+			to(rgba(235, 65, 65, 0.45))
 		),
-		url(../assets/);
-	background: linear-gradient(
-			rgba(167, 248, 160, 0.45),
-			rgba(167, 248, 160, 0.45)
-		),
-		url(../assets/);
+		url(../assets/cp/recolector\ 2.jpg);
+	background: linear-gradient(rgba(235, 65, 65, 0.45), rgba(235, 65, 65, 0.45)),
+		url(../assets/cp/recolector\ 2.jpg);
 	background-size: cover;
 }
 
@@ -472,6 +469,28 @@
 			rgba(218, 116, 243, 0.45)
 		),
 		url(../assets/apps/5.png);
+	background-size: cover;
+}
+
+.background--jo {
+	background: url(../assets/apps/jjoo.jpg);
+	background-size: cover;
+}
+
+.background--jo:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(245, 150, 143, 0.45)),
+			to(rgba(245, 150, 143, 0.45))
+		),
+		url(../assets/apps/jjoo.jpg);
+	background: linear-gradient(
+			rgba(245, 150, 143, 0.45),
+			rgba(245, 150, 143, 0.45)
+		),
+		url(../assets/apps/jjoo.jpg);
 	background-size: cover;
 }
 
@@ -775,12 +794,12 @@
 		url(../assets/dg/7.png);
 	background-size: cover;
 }
-.background--nj {
-	background: url(../assets/dg/4.png);
+.background--portada {
+	background: url(../assets/dg/3.png);
 	background-size: cover;
 }
 
-.background--nj:hover {
+.background--portada:hover {
 	background: -webkit-gradient(
 			linear,
 			left top,
@@ -788,12 +807,165 @@
 			from(rgba(247, 207, 133, 0.45)),
 			to(rgba(247, 207, 133, 0.45))
 		),
-		url(../assets/dg/4.png);
+		url(../assets/dg/3.png);
 	background: linear-gradient(
 			rgba(247, 207, 133, 0.45),
 			rgba(247, 207, 133, 0.45)
 		),
-		url(../assets/dg/4.png);
+		url(../assets/dg/3.png);
+	background-size: cover;
+}
+
+/*motion*/
+.background--huawei {
+	background: url(../assets/motion/9.png);
+	background-size: cover;
+}
+
+.background--huawei:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 133, 133, 0.45)),
+			to(rgba(247, 133, 133, 0.45))
+		),
+		url(../assets/motion/9.png);
+	background: linear-gradient(
+			rgba(247, 133, 133, 0.45),
+			rgba(247, 133, 133, 0.45)
+		),
+		url(../assets/motion/9.png);
+	background-size: cover;
+}
+.background--trailers {
+	background: url(../assets/motion/14.png);
+	background-size: cover;
+}
+
+.background--trailers:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/motion/14.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/motion/14.png);
+	background-size: cover;
+}
+.background--superheroes {
+	background: url(../assets/motion/11.png);
+	background-size: cover;
+}
+
+.background--superheroes:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 247, 213, 0.45)),
+			to(rgba(133, 247, 213, 0.45))
+		),
+		url(../assets/motion/11.png);
+	background: linear-gradient(
+			rgba(133, 247, 213, 0.45),
+			rgba(133, 247, 213, 0.45)
+		),
+		url(../assets/motion/11.png);
+	background-size: cover;
+}
+
+.background--piezas {
+	background: url(../assets/motion/13.png);
+	background-size: cover;
+}
+
+.background--piezas:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 207, 133, 0.45)),
+			to(rgba(247, 207, 133, 0.45))
+		),
+		url(../assets/motion/13.png);
+	background: linear-gradient(
+			rgba(247, 207, 133, 0.45),
+			rgba(247, 207, 133, 0.45)
+		),
+		url(../assets/motion/13.png);
+	background-size: cover;
+}
+
+.background--intros {
+	background: url(../assets/motion/10.png);
+	background-size: cover;
+}
+
+.background--intros:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 220, 247, 0.45)),
+			to(rgba(133, 220, 247, 0.45))
+		),
+		url(../assets/motion/10.png);
+	background: linear-gradient(
+			rgba(133, 220, 247, 0.45),
+			rgba(133, 220, 247, 0.45)
+		),
+		url(../assets/motion/10.png);
+	background-size: cover;
+}
+
+.background--ciber {
+	background: url(../assets/motion/2.png);
+	background-size: cover;
+}
+
+.background--ciber:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(247, 220, 133, 0.45)),
+			to(rgba(247, 220, 133, 0.45))
+		),
+		url(../assets/motion/2.png);
+	background: linear-gradient(
+			rgba(247, 220, 133, 0.45),
+			rgba(247, 220, 133, 0.45)
+		),
+		url(../assets/motion/2.png);
+	background-size: cover;
+}
+
+.background--elefantes {
+	background: url(../assets/motion/4.png);
+	background-size: cover;
+}
+
+.background--elefantes:hover {
+	background: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			from(rgba(133, 247, 213, 0.45)),
+			to(rgba(133, 247, 213, 0.45))
+		),
+		url(../assets/motion/4.png);
+	background: linear-gradient(
+			rgba(133, 247, 213, 0.45),
+			rgba(133, 247, 213, 0.45)
+		),
+		url(../assets/motion/4.png);
 	background-size: cover;
 }
 

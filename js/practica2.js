@@ -2,6 +2,9 @@ let codeValues = [];
 let rightAnswer =  ["a", "r", "g", "e", "n", "t", "i", "n", "o", "s"];
 let rightAnswer2 =  ["A", "r", "g", "e", "n", "t", "i", "n", "o", "s"];
 let rightAnswer3 =  ["A", "R", "G", "E", "N", "T", "I", "N", "O", "S"];
+let rightAnswer4 =  ["a", "r", "g", "e", "n", "t", "i", "n", "a", "s"];
+let rightAnswer5 =  ["A", "r", "g", "e", "n", "t", "i", "n", "a", "s"];
+let rightAnswer6 =  ["A", "R", "G", "E", "N", "T", "I", "N", "A", "S"];
 
 console.log("hi");
 
@@ -141,7 +144,10 @@ function save10(){
 function checkCode(){
     if(JSON.stringify(codeValues) == JSON.stringify(rightAnswer) || 
     JSON.stringify(codeValues) == JSON.stringify(rightAnswer2) ||
-    JSON.stringify(codeValues) == JSON.stringify(rightAnswer3)){
+    JSON.stringify(codeValues) == JSON.stringify(rightAnswer3) ||
+    JSON.stringify(codeValues) == JSON.stringify(rightAnswer4) || 
+    JSON.stringify(codeValues) == JSON.stringify(rightAnswer5) ||
+    JSON.stringify(codeValues) == JSON.stringify(rightAnswer6)){
         window.location.href="../portfolio/categorias.html";
         localStorage.setItem('state2', 'done')
     }else{
